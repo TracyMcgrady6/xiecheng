@@ -1,6 +1,7 @@
 # 携程比赛：出行产品未来14个月销量预测
 
 RMSE：167
+
 比赛链接：https://www.kesci.com/apps/home_log/index.html#!/competition/58bfc27471db03332e1b8a36/content/1
 
 身为菜鸟的我第一次完整的做比赛，断断续续的20多天时间左右，虽然结果并不理想，但是也算是收获颇多。
