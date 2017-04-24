@@ -7,11 +7,12 @@ RMSE：167
 身为菜鸟的我第一次完整的做比赛，断断续续的20多天时间左右，虽然结果并不理想，但是也算是收获颇多。
 
 ## 说明：
-tools.py：工具类，一些方法
-train_processing.py：处理训练集数据特征化
-test_processing_new_feature.py：处理预测数据特征化
-Model.py：各种单模型，RF，xgboost，ExtraTrees等
-model_fit_original：训练，将预测数据写入文件
+
+* tools.py：工具类，一些方法
+* train_processing.py：处理训练集数据特征化
+* test_processing_new_feature.py：处理预测数据特征化
+* Model.py：各种单模型，RF，xgboost，ExtraTrees等
+* model_fit_original：训练，将预测数据写入文件
 
 ## 特征工程：
 
@@ -47,6 +48,10 @@ model_fit_original：训练，将预测数据写入文件
 ![](http://upload-images.jianshu.io/upload_images/2127249-20f4e7603114d43d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+## 模型选择
+* xgboost
+* RF
+* ExtraTrees（效果最好）
 
 ## 尝试过多模型融合 
 GBDT+RF+xgboost+Extratrees模型封装
@@ -55,5 +60,5 @@ GBDT+RF+xgboost+Extratrees模型封装
 没有明显提升
 
 ## 结语
-时间有限，有很多可以改进的地方，还有很多想法都没付出实现。代码写的也不规范，很多地方写的很蠢，希望看到的童鞋多多交流，多多指导，共同进步。
+时间有限，有很多可以改进的地方，还有很多想法都没付出实现，因为对算法理解不深入，调参数也是一个痛苦的过程。代码写的也不规范，很多地方写的很蠢，希望看到的童鞋多多交流，多多指导，共同进步。
 
